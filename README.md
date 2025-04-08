@@ -6,6 +6,7 @@ Una aplicación web simple para descargar mangas usando la biblioteca mloader.
 
 - Python 3.7 o superior
 - pip (gestor de paquetes de Python)
+- La biblioteca [mloader](https://github.com/hurlenko/mloader) (se instalará automáticamente desde `requirements.txt`)
 
 ## Instalación
 
@@ -36,4 +37,5 @@ python app.py
 
 - Los mangas se descargarán en el directorio `mloader_downloads` por defecto
 - Asegúrate de tener suficiente espacio en disco para las descargas
-- La aplicación debe tener permisos de escritura en el directorio de destino 
+- La aplicación debe tener permisos de escritura en el directorio de destino
+- Esta aplicación utiliza la biblioteca [mloader](https://github.com/hurlenko/mloader) para gestionar la descarga de mangas.
